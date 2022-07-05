@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T02:50:13.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="aK7NpfrdBLPYWJuvyYQ7" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T07:57:21.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8tc6ZS-otllEvtZZ_EoJ" version="20.0.3" type="github">
   <diagram id="Mege0ZQQDiOM1WlR_YAm" name="第 1 页">
-    <mxGraphModel dx="946" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,86 @@
         <mxCell id="GCLPJOmeydrpfm6Ozf3P-33" value="不添加标的，开apex账户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-32">
           <mxGeometry x="0.0176" y="-28" relative="1" as="geometry">
             <mxPoint x="39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCLPJOmeydrpfm6Ozf3P-34" target="GCLPJOmeydrpfm6Ozf3P-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-53" value="添加数字货币" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-37">
+          <mxGeometry x="-0.2512" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-34" value="未开户、自选列表不存在数字货币标的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-35" value="用户状态机模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCLPJOmeydrpfm6Ozf3P-36" target="GCLPJOmeydrpfm6Ozf3P-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-52" value="开户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-39">
+          <mxGeometry x="-0.2615" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-36" value="未开户，存在数字货币" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="321.87" y="800" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-38" value="已开户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="960" width="155" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-42" value="根据app及其版本来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="519.38" y="660" width="181.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-43" value="依照现存的数字货币的来源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529.5" y="820" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-44" value="依照开户的账户类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="528.75" y="977.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.993;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GCLPJOmeydrpfm6Ozf3P-36" target="GCLPJOmeydrpfm6Ozf3P-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="870" as="sourcePoint" />
+            <mxPoint x="560" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-59" value="删除所有数字货币标的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-58">
+          <mxGeometry x="0.2783" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-60" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCLPJOmeydrpfm6Ozf3P-38" target="GCLPJOmeydrpfm6Ozf3P-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="880" as="sourcePoint" />
+            <mxPoint x="250" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-61" value="销户且存在数字货币标的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-60">
+          <mxGeometry x="0.2504" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-62" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCLPJOmeydrpfm6Ozf3P-38" target="GCLPJOmeydrpfm6Ozf3P-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="830" as="sourcePoint" />
+            <mxPoint x="200" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="880" />
+              <mxPoint x="210" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCLPJOmeydrpfm6Ozf3P-63" value="销户且不存在数字货币标的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GCLPJOmeydrpfm6Ozf3P-62">
+          <mxGeometry x="0.1948" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
